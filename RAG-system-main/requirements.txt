@@ -1,0 +1,32 @@
+# Backend and API
+fastapi==0.139.0
+uvicorn==0.48.0
+python-multipart==0.0.32
+pydantic==2.13.4
+python-dotenv==1.2.2
+PyJWT==2.15.1
+pwdlib[argon2]==0.3.1
+
+# Retrieval, embeddings, vector database, and local model integrations
+langchain-core==1.4.0
+langchain-community==0.4.2
+langchain-chroma==1.1.0
+langchain-huggingface==1.2.2
+langchain-ollama==1.1.0
+langchain-text-splitters==1.1.2
+langchain-experimental==0.4.2
+chromadb==1.5.9
+sentence-transformers==5.5.1
+
+# File extraction
+pypdf==6.13.3
+docx2txt==0.9
+pillow==12.2.0
+pytesseract==0.3.13
+openai-whisper==20250625
+
+# Sample-file and evaluation utilities
+python-docx==1.2.0
+reportlab==5.1.0
+requests==2.34.2
+matplotlib==3.11.2

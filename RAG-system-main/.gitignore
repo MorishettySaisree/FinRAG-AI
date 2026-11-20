@@ -1,0 +1,52 @@
+﻿# Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# User accounts and local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# ChromaDB and backups
+db/chroma_db/
+db/chroma_db_backup/
+
+# Private uploaded documents and test uploads
+data/
+sample_upload_files/
+
+# Local backups
+backend_backup/
+frontend_src_backup/
+generation_backup/
+ingestion_backup/
+retrieval_backup/
+*_backup.py
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local backups and temporary files
+*.backup
+*.bak
+*.log
+pdf_audit.txt
+figure*_latency.png
+evaluation/*.csv
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Python testing
+.pytest_cache/
+.coverage
